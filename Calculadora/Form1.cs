@@ -21,5 +21,34 @@ namespace Calculadora
         {
 
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtDisplay_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnZero_Click(object sender, EventArgs e)
+        {
+            {
+                if (!txtDisplay.Text.Trim().Equals("0"))
+                {
+                    txtDisplay.Text = txtDisplay.Text + "0";
+                }
+                else
+                {
+                    txtDisplay.Text = "0";
+                }
+            }
+        }
     }
 }
